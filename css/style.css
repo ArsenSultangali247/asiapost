@@ -1,0 +1,222 @@
+body{
+    
+    font-family: 'Montserrat', sans-serif;
+    background-color: #F9F9F9;
+
+}
+
+/* Navigation panel */
+.page-header {
+    margin-bottom: 32px;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+.topnav{
+    background-color: #ED3237;
+    display: flex;
+    align-items: center;
+    width: 1485px;
+    height: 118px;
+}
+
+.header-logo{
+    margin-right: 500px;
+    align-self: baseline;
+}
+
+.topnav-list{
+    display: flex;
+    text-align: end;
+}
+
+.topnav-item{
+    letter-spacing: 0.02em;
+    list-style: none;
+    display: inline;
+}
+
+.topnav-item-link{
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 90px;
+    margin: 0px 20px;
+    text-decoration: none;
+    color: white;
+
+}
+
+.topnav-item-link:hover,
+.topnav-item-link:focus{
+    
+    color: #c2c2c2;
+
+}
+
+/* First page */
+.first-page{
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0px 100px 190px auto;
+    text-align: center;
+    background-image: url(img/logo.jpg);
+}
+
+/* О нас */
+.about-us{
+
+    text-align: center;
+    margin: 190px 100px;
+
+}
+
+.ab-us-desc{
+    
+    font-weight: 400;
+    margin: 900 px 200px 0px 200px;
+
+}
+
+.ab-us-desc-tpart{
+    font-weight: 700;
+}
+
+.zakaz{
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 90px;
+    padding-right: 30px;
+    text-decoration: none;
+    color: black;
+
+}
+
+.zakaz:hover
+.zakaz:focus{
+
+    color: #7c7c7c;
+
+}
+
+/* Услуги */
+.services{
+
+    text-align: center;
+    margin: 190px 100px;
+
+}
+
+.services-desc{
+
+    font-weight: 400;
+    margin: 900 px 200px 0px 200px;
+
+}
+
+.form{
+    
+    background-color: #ffffff;
+    width: 420px;
+    height: auto;
+    text-align: center;
+    margin: 0px 420px;
+
+}
+
+.form-item{
+    
+    text-align: left;
+    margin-bottom: 10px;
+
+}
+
+/* Трекинг */
+.tracking{
+
+    text-align: center;
+    margin: 190px 100px;
+
+}
+
+/* Заказ доставки */
+.order{
+
+    text-align: center;
+    margin: 190px 100px;
+
+}
+
+.order-desc{
+
+    font-weight: 400;
+    margin: 900 px 200px 0px 200px;
+
+}
+
+.footer-logo {
+    margin-right: 500px;
+    align-self: baseline;
+}
+
+.footer-list{
+    list-style: none;
+    background-color: #ED3237
+}
+
+.footer-list-item {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.72;
+}
+
+.footer-address-item1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.72;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.footer-address-item2 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.72;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.footer-address-item3 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.72;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.footer-address-item1:hover,
+.footer-address-item1:focus {
+    color: #c0c0c0;
+}
+
+.footer-address-item2:hover,
+.footer-address-item2:focus {
+    color: #c0c0c0;
+}
+
+.footer-address-item3:hover,
+.footer-address-item3:focus {
+    color: #c0c0c0;
+}

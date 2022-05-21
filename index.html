@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asiapost</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    
+    <div class="main">
+
+        <!-- top panel -->
+        <header class="page-header">
+            <div class="header-container">
+                <nav class="topnav">
+                    <a class="header-logo" href="index.html">
+                        <img class="logo-img" src="./img/logo.jpg" alt="Логотип" width="285" height="118">
+                    </a>
+
+                    <ul class="topnav-list">
+                        <li class="topnav-item">
+                            <a class="topnav-item-link" href="#about-us">О нас</a>
+                        </li>
+                        <li class="topnav-item">
+                            <a class="topnav-item-link" href="#services">Услуги</a>
+                        </li>
+                        <li class="topnav-item">
+                            <a class="topnav-item-link" href="#tracking">Трекинг</a>
+                        </li>
+                        <li class="topnav-item">
+                            <a class="topnav-item-link" href="#order">Заказать доставку</a>
+                        </li>
+                        <li class="topnav-item">
+                            <a class="topnav-item-link" href="#contacts">Контакты</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <!-- 1st page -->
+        <section class="first-page">
+            <div>
+                <h1>Перевозка грузов по Казахстану и СНГ</h1>
+                <h3>Перевозка малогабаритных и крупногабаритных грузов</h3>
+                <img src="./img/post.jpg" alt="Грузоперевозка" />
+            </div>
+        </section>
+
+        <!-- О компании -->
+        <section id="about-us" class="about-us">
+            <div>
+
+                <h2>О компании</h2>
+                <h5 class="ab-us-desc">Курьерская компания Asia Post свидетельствует своё уважение и рада предоставить Вам возможность высококачественной
+                доставки пакетной документации по всему миру и грузов по Казахстану на основе принципа "из рук в руки", "от двери до
+                двери".
+                </h5>
+                <h5 class="ab-us-desc">Компания Asia Post обладает практическим опытом работы на рынке курьерских услуг, отработанной технологией
+                транспортировки, доставки корреспонденции и грузов. Знания и профессионализм наших сотрудников, а также наличие всех
+                необходимых ресурсов, обеспечивают надежное качество и комфортный сервис обслуживания на международном уровне.
+                </h5>
+                <h5 class="ab-us-desc">Основной принцип работы компании заключается в создании максимально удобных условий для сотрудничества, индивидуальный
+                подход к каждому клиенту и конечно гибкая тарифная политика.
+                </h5>
+                <h5 class="ab-us-desc">Оперативность является основой стиля нашей работы. Сокращая время между заказом и поставкой, мы делаем этот процесс
+                более динамичным и эффективным. Фиксированные сроки доставки позволяют заказчику планировать время отправления и
+                получения документов и грузов.
+                </h5>
+                <h5><span class="ab-us-desc-tpart">Мы будем рады видеть Вас в качестве нашего постоянного клиента, а также предложить взаимовыгодное и плодотворное
+                сотрудничество!</span>
+                </h5>
+                <a class="zakaz" href="zakaz">Начните работать с нами прямо сейчас</a>
+                <h5 class="ab-us-desc">Мы обеспечим вам высококлассный сервис и выполним работу быстро и качественно</h5>
+
+            </div>
+        </section>
+
+        <!-- Услуги -->
+        <section id="services" class="services">
+            <div>
+
+                <h2>Тарифы и услуги</h2>
+                <h5 class="services-desc">Для того, чтобы получить тарифы на услуги нашей компании просим Вас заполнить анкету указанную ниже.
+                Это займет всего лишь пару минут Вашего времени!</h5>
+
+                <div class="form" id="myForm">
+                    <form action="/action_page.php" class="form-container">
+                        <h1>Анкета</h1>
+                        
+                        <div class="form-item">
+
+                            <label for="name"><b>Фамилия, Имя</b></label>
+                            <input type="text" size="50" placeholder="Ввести..." name="name" required>
+                        
+                        </div>    
+
+                        <div class="form-item">
+                        
+                            <label for="comp"><b>Компания</b></label>
+                            <input type="text" size="50" placeholder="Ввести..." name="comp" required>
+                        
+                        </div>
+
+                        <div class="form-item">
+
+                            <label for="email"><b>Почта</b></label>
+                            <input type="text" size="50" placeholder="Ввести..." name="email" required>   
+                        
+                        </div>
+
+                        <div class="form-item">
+                        
+                            <label for="tel"><b>Телефон</b></label>
+                            <input type="text" size="50" placeholder="Ввести..." name="tel" required>
+
+                        </div>
+
+                        <div class="form-item">
+                        
+                            <label for="request"><b>Ваш запрос</b></label>
+                            <textarea name="request" cols="45" rows="5"></textarea>
+
+                        </div>    
+
+                        <button type="submit" class="btn">Отправить</button>
+                    
+                    </form>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Трекинг -->
+        <section id="tracking" class="tracking">
+            <div>
+                <h2>Отследить доставку</h2>
+                <p>Перейдя по ссылке, вы сможете отследить свою доставку:</p>
+                <a href="http://home.courierexe.ru/252/tracking" target="_blank" rel="noreferrer">Трекинг</a>
+            </div>
+        </section>
+
+        <!-- Заказать доставку -->
+        <section id="order" class="order">
+            <div>
+                <h2>Калькулятор</h2>
+                <p>Перейдя по ссылке, с помощью калькулятора вы сможете подсчитать цену доставки:</p>
+                <a href="http://home.courierexe.ru/252/calculator">Подсчитать стоимость</a>
+
+                <h2>Заказать доставку</h2>
+                <h5 class="order-desc">Для вызова курьера необходимо заполнить следующую форму:</h5>
+                <div class="form" id="myForm">
+                    <form action="/action_page.php" class="form-container">
+                        <h1>Анкета</h1>
+                        
+                        <div class="form-item">
+
+                            <label for="city"><b>Город</b></label>
+                            <input type="text" size="50" placeholder="Ввести..." name="city" required>
+                        
+                        </div>    
+
+                        <div class="form-item">
+                        
+                            <label for="address"><b>Адрес</b></label>
+                            <input type="text" size="50" placeholder="Ввести..." name="address" required>
+                        
+                        </div>
+
+                        <div class="form-item">
+
+                            <label for="company"><b>Компания</b></label>
+                            <input type="text" size="50" placeholder="Ввести..." name="company" required>   
+                        
+                        </div>
+
+                        <div class="form-item">
+                        
+                            <label for="contact"><b>Контактное лицо</b></label>
+                            <input type="text" size="50" placeholder="Ввести..." name="contact" required>
+
+                        </div>
+
+                        <div class="form-item">
+                        
+                            <label for="tel"><b>Контактный телефон</b></label>
+                            <input type="text" size="50" placeholder="Ввести..." name="tel" required>
+
+                        </div>
+
+                        <div class="form-item">
+                        
+                            <label for="email"><b>E-mail</b></label>
+                            <input type="text" size="50" placeholder="Ввести..." name="email" required>
+
+                        </div>
+
+                        <div class="form-item">
+                        
+                            <label for="parceltype"><b>Тип отправления</b></label>
+                            <select>
+
+                                <option>Документы</option>
+                                <option>Не документы</option>
+
+                            </select>
+
+                        </div>
+
+                        <div class="form-item">
+                        
+                            <label for="clwishes"><b>Желаемые дата и время прибытия круьера</b></label>
+                            <input type="text" size="50" placeholder="Ввести..." name="clwishes" required>
+
+                        </div>
+
+                        <div class="form-item">
+                        
+                            <label for="PS"><b>Примечания</b></label>
+                            <textarea name="PS" cols="45" rows="5"></textarea>
+
+                        </div>    
+
+                        <button type="submit" class="btn">Отправить</button>
+                    
+                    </form>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- bottom panel -->
+        <footer id="contacts" class="footer">
+            <a class="footer-logo" href="index.html">
+                <img class="logo-img" src="./img/logo.jpg" alt="Логотип" width="175" height="58">
+            </a>
+            <address>
+                <ul class="footer-list">
+                    <li class="footer-list-item">
+                        <a href="https://goo.gl/maps/pzeRdLZfxdDijxCR6" target="_blank" rel="noopener noreferrer"
+                            class="footer-address-item1">
+                            050016, г. Алматы, проспект Райымбека, 165А/1
+                        </a>
+                    </li>
+                    <li class="footer-list-item">
+                        <a href="mailto:info@example.com" class="footer-address-item2">info@example.com</a>
+                    </li>
+                    <li class="footer-list-item">
+                        <a href="tel:+380961111111" class="footer-address-item3">+38 096 111 11 11</a>
+                    </li>
+                </ul>
+            </address>
+        </footer>
+
+    </div>    
+        
+</body>
+</html>
